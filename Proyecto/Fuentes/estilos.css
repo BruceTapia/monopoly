@@ -1,0 +1,370 @@
+ /* Inicio */
+ .carousel, .carousel-inner > .item > img {
+    
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    position: relative;
+    left: 19%;
+  }
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;   
+}
+ /* fin Inicio */
+
+
+ /* OFERTAS */
+.fondo-oferta1{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: auto; 
+
+}
+
+.oferta1{
+    width: 100%;
+    height: 320px;
+    position: relative;
+
+}
+
+.oferta1-image{
+    position:absolute;
+    margin: auto;
+    bottom: -10%;
+    width: 100%;
+    max-width: 400px;
+}
+
+.texto-oferta1{
+    border: 2px solid white;
+    color: white;
+    margin-top: 14%;
+    font-size: 46px;
+
+}
+
+
+
+.fondo-oferta2{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: auto; 
+    margin-top: 2%;
+
+}
+
+.oferta2{
+    width: 100%;
+    height: 320px;
+    position: relative;
+
+}
+
+.oferta2-image{
+    position:absolute;
+    top: 20px;
+    left: 70px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.texto-oferta2{
+    border: 2px solid white;
+    color: white;
+    margin-top: 14%;
+    font-size: 46px;
+
+}
+
+
+
+.fondo-oferta3{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: auto; 
+    margin-top: 2%;
+
+}
+
+.oferta3{
+    width: 100%;
+    height: 320px;
+    position: relative;
+
+}
+
+.oferta3-image{
+    position:absolute;
+    width: 100%;
+    max-width: 400px;
+ 
+}
+
+.texto-oferta3{
+    border: 2px solid white;
+    color: white;
+    margin-top: 14%;
+    font-size: 46px;
+
+}
+
+ /* fin OFERTAS */
+
+ body{
+     overflow-x: hidden;
+     background-color: rgb(221, 139, 31);
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ }
+ /* Menu */
+.menu{
+    width: 100%;
+    padding: 6%;
+    height: 91%;   
+}
+
+.hamburguer{
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+.submenu{
+    text-align: center;
+    background-color: #000000;
+    color: rgb(238, 176, 4);
+    border-bottom:  2px solid rgb(0, 0, 0); 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50% ;
+}
+
+
+.details-hamburguer{
+    position: absolute;
+    right: 85%;
+    bottom: 250px;
+    z-index: -10;
+}
+
+.details-nuggets{
+    position: absolute;
+    left: 69%;
+    bottom: -170px;
+    z-index: -10;
+    clip-path: inset(0 40% 0 0);
+
+}
+
+.Nmenu{
+    text-align: center;
+    position: relative;
+    color: #000000;
+   font-size: 45px;
+    text-decoration: none;
+    top: -16px;
+
+}
+
+.Nmenu::before{
+    content: "";
+    background: orangered;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.8s all;
+}
+
+.Nmenu::after{
+    content: "";
+    background: orangered;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.8s all;
+}
+ /* fin menu */
+
+ /* hamburguesas */
+
+.comidaha
+{
+    width: 85%;
+    padding: 5%;
+    height: 100%;   
+    margin-top: 10%;
+}
+
+ /* fin hamburguesas */
+
+ /* Helados */
+
+.comidahe
+{
+    width: 85%;
+    padding: 5%;
+    height: 90%;   
+    margin-top: 117px;
+}
+
+ /* fin Helados */
+  /* Nuggets */
+.comidanu
+{
+    width: 85%;
+    padding: 5%;
+    height: 100%;   
+    
+}
+ /* fin nuggets */
+
+  /* papas fritas */
+.comidapa
+{
+    margin-top: 10px;
+    width: 85%;
+    padding: 5%;
+    height: 100%;   
+    margin-top: 54px;
+}
+
+ /* fin papas fritas */
+
+ /* categorias */
+
+h2{
+    font-family: 'BlockBeCnPro', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 1; 
+    text-align: center;
+}
+
+
+
+
+.textoP
+{
+    margin-top: 2%;
+    font-size: 60px;
+    width: 100%;
+    padding: 5%;
+    height: 1050%; 
+    border: 17px solid #b36e07;
+    background-color: #cf4c18ea;
+    right: 1%;
+    
+
+}
+
+.textoha
+{
+    margin-top: 11%;
+    font-size: 60px;
+    width: 100%;
+    padding: 5%;
+    height: 1050%; 
+    border: 17px solid #b36e07;
+    background-color: #cf4c18ea;
+    right: 1%;
+    
+}
+.textopa
+{
+    margin-top: 10%;
+    font-size: 60px;
+    width: 100%;
+    padding: 5%;
+    height: 1050%; 
+    border: 17px solid #b36e07;
+    background-color: #cf4c18ea;
+    right: 1%;
+}
+.textohe
+{
+    margin-top: 12%;
+    font-size: 60px;
+    width: 100%;
+    padding: 5%;
+    height: 1050%; 
+    border: 17px solid #b36e07;
+    background-color: #cf4c18ea;
+    right: 1%;
+    
+}
+
+ /* fin categorias */
+
+
+.comida
+{
+    width: 85%;
+    padding: 5%;
+    height: 100%;   
+    margin-top: 54px;
+}
+
+
+ /* Navegador */
+.link-nav{
+    font-size: larger;
+    color: white;
+}
+
+.menuI{
+    background-color: #a5620bf6;
+    width: 100%;
+    color: white;
+}
+
+ /* fin navegador */
+
+
+ /* Hovers */
+
+.link-nav:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.logos-end:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+
+}
+
+.Nmenu:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.Nmenu:hover::before{
+    width: 100%;
+}
+
+.Nmenu:hover::after{
+    width: 100%;
+}
+ /* fin de hovers */
+
+ /* media queries */ 
+@media screen and (max-width: 1100px) {
+    .details-hamburguer{
+        display: none;
+    }
+
+    .details-nuggets{
+        display: none;
+    }
+
+}
